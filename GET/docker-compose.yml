@@ -1,0 +1,14 @@
+# GET
+
+version: "1"
+
+services:
+
+  web:
+    build: .
+    image: GET
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=flag{I_hate_PHP_s0_much_oh_oh_0h!}
