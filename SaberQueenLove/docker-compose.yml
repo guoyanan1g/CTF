@@ -1,0 +1,14 @@
+# SaberQueenLove
+
+version: "1"
+
+services:
+
+  web:
+    build: .
+    image: SaberQueenLove
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=flag{HAHAHA_Saber_Is_already_my_girlfriend_ye}
