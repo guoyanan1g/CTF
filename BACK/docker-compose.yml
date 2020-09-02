@@ -1,0 +1,14 @@
+# BACK
+
+version: "1"
+
+services:
+
+  web:
+    build: .
+    image: BACK
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=flag{salfkhwq9r832rhkdkasdate01923adqwedsfaf}
